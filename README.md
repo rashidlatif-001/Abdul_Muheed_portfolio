@@ -1,9 +1,10 @@
 # Rashid Latif — Software Engineer & Frontend Developer Portfolio
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rashidlatif-001.github.io/RashidLatif-Portfolio/)
-[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub_Pages_Active-10b981?style=for-the-badge&logo=github)](https://rashidlatif-001.github.io/RashidLatif-Portfolio/)
+[![Vercel Deployment](https://img.shields.io/badge/▲_Vercel_Live-rashidlatif--portfolio.vercel.app-black?style=for-the-badge&logo=vercel)](https://rashidlatif-portfolio.vercel.app)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Live_Site-10b981?style=for-the-badge&logo=github)](https://rashidlatif-001.github.io/RashidLatif-Portfolio/)
 
-> 🚀 **Live Website Link:** **[https://rashidlatif-001.github.io/RashidLatif-Portfolio/](https://rashidlatif-001.github.io/RashidLatif-Portfolio/)**
+> 🚀 **Official Vercel Live Link:** **[https://rashidlatif-portfolio.vercel.app](https://rashidlatif-portfolio.vercel.app)**  
+> 🌐 **GitHub Pages Mirror:** **[https://rashidlatif-001.github.io/RashidLatif-Portfolio/](https://rashidlatif-001.github.io/RashidLatif-Portfolio/)**
 
 A modern, responsive, and professional portfolio website engineered with pure **HTML5**, **CSS3**, and **JavaScript** for **Rashid Latif**, Software Engineering student (BSSE) at CECOS University, Peshawar, and former Frontend Developer Intern at **M1 (Luxury Asset Marketplace)**.
 
