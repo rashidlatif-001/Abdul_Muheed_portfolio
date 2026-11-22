@@ -1,5 +1,5 @@
 /**
- * Alex Morgan - Personal Portfolio JavaScript
+ * Abdul Muheed - Personal Portfolio JavaScript
  * Modern, clean, modular, and performance-optimized.
  */
 
@@ -144,9 +144,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const wordsToType = [
     'Frontend Developer (Next.js & React)',
     'M1 Luxury Marketplace Intern',
+    'UI/UX Designer (Figma)',
     'Software Engineer (BSSE)',
-    'Android Developer (Kotlin)',
-    'Python & AI Integrator'
+    'React Native & Mobile Developer'
   ];
 
   let wordIndex = 0;
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
 
       const bodyText = `From: ${payload.name}\nEmail: ${payload.email}\n\nMessage:\n${payload.message}`;
-      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=rashidlatif1400@gmail.com&su=${encodeURIComponent(
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=abdulmuheed778@gmail.com&su=${encodeURIComponent(
         payload.subject
       )}&body=${encodeURIComponent(bodyText)}`;
 
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Send via FormSubmit AJAX service
-      fetch('https://formsubmit.co/ajax/rashidlatif1400@gmail.com', {
+      fetch('https://formsubmit.co/ajax/abdulmuheed778@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (data.success === 'true' || data.success === true) {
           showFormNotification(
             'Message Sent Successfully!',
-            'Thank you for reaching out. Your email has been delivered to rashidlatif1400@gmail.com.',
+            'Thank you for reaching out. Your email has been delivered to abdulmuheed778@gmail.com.',
             true
           );
         } else {
@@ -456,7 +456,7 @@ document.addEventListener('DOMContentLoaded', () => {
           window.open(gmailUrl, '_blank');
           showFormNotification(
             'Opening Gmail Compose...',
-            'We have prepared your message in Gmail ready to send directly to rashidlatif1400@gmail.com.',
+            'We have prepared your message in Gmail ready to send directly to abdulmuheed778@gmail.com.',
             true
           );
         }
@@ -468,7 +468,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.open(gmailUrl, '_blank');
         showFormNotification(
           'Opening Gmail Compose...',
-          'We have prepared your message in Gmail ready to send directly to rashidlatif1400@gmail.com.',
+          'We have prepared your message in Gmail ready to send directly to abdulmuheed778@gmail.com.',
           true
         );
       });
@@ -490,10 +490,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (subject) text += `\n*Subject:* ${subject}`;
       if (message) text += `\n*Message:* ${message}`;
       if (!name && !message) {
-        text = `Hi Rashid! I saw your portfolio and would like to talk to you about an opportunity.`;
+        text = `Hi Muheed! I saw your portfolio and would like to talk to you about an opportunity.`;
       }
 
-      window.open(`https://wa.me/9233533473973?text=${encodeURIComponent(text)}`, '_blank');
+      window.open(`https://wa.me/923150519274?text=${encodeURIComponent(text)}`, '_blank');
     });
   }
 
@@ -508,8 +508,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // =========================================================================
   const cvBtn = document.getElementById('cv-download-btn');
   if (cvBtn) {
-    cvBtn.setAttribute('href', 'Rashid_Latif_CV.pdf');
-    cvBtn.setAttribute('download', 'Rashid_Latif_CV.pdf');
+    cvBtn.setAttribute('href', 'Abdul_Muheed_CV.pdf');
+    cvBtn.setAttribute('download', 'Abdul_Muheed_CV.pdf');
     cvBtn.setAttribute('target', '_blank');
   }
 
